@@ -73,6 +73,7 @@ We Deliver Measurable Growth
           </div>
           <div class="col-lg-6">
             <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
+  <div id="hubspot-form" class="hero-img wow fadeInUp" data-wow-delay=".5s">
   <!-- HubSpot Form Embed -->
   <script charset="utf-8" type="text/javascript" src="//js-na2.hsforms.net/forms/embed/v2.js"></script>
   <script>
@@ -84,6 +85,13 @@ We Deliver Measurable Growth
   </script>
 
   <!-- Hide HubSpot branding link -->
+  <style>
+    .hs-form iframe + div {
+      display: none !important;
+    }
+  </style>
+</div>
+
   <style>
     .hs-form iframe + div {
       display: none !important;
@@ -408,18 +416,10 @@ We Deliver Measurable Growth
           </div>
         </div>
         <div class="col-xl-6 col-lg-5">
-          <form action="#" class="subscribe-form">
-            <input
-              type="email"
-              name="subs-email"
-              id="subs-email"
-              placeholder="Enter your email"
-              required
-            />
-            <button type="submit" class="main-btn btn-hover">
-              Sign Up
-            </button>
-          </form>
+           <a href="#hubspot-form" class="main-btn btn-hover">
+  Sign Up
+</a>
+
         </div>
       </div>
     </div>
